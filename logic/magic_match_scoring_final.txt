@@ -1,0 +1,30 @@
+
+def calculate_match_score(rule, gpa, sport, region, position, grad_year, height, weight, location_pref, tags, sat, act, major, academic_level):
+    score = 0
+    if rule["gpa_range"][0] <= gpa <= rule["gpa_range"][1]:
+        score += 30
+    if sport in rule["sports"]:
+        score += 20
+    if region == "All" or region in rule["regions"]:
+        score += 10
+    if "HBCU" in tags:
+        score += 10
+    if "NIL" in tags:
+        score += 10
+    if position in rule.get("positions", []):
+        score += 5
+    if grad_year in rule.get("target_graduation_years", []):
+        score += 5
+    if "6'" in height or "6ft" in height:
+        score += 5
+    if location_pref == rule.get("location_type", ""):
+        score += 5
+    if major and major in rule.get("supported_majors", []):
+        score += 10
+    if academic_level == "High":
+        score += 5
+    if sat and rule.get("sat_range") and rule["sat_range"][0] <= sat <= rule["sat_range"][1]:
+        score += 10
+    elif act and rule.get("act_range") and rule["act_range"][0] <= act <= rule["act_range"][1]:
+        score += 10
+    return score

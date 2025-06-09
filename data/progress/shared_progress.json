@@ -1,0 +1,18 @@
+{
+  "name": "Jordan Athlete",
+  "email": "athlete@example.com",
+  "gpa": 3.4,
+  "sport": "Basketball",
+  "graduation_year": 2026,
+  "position": "Point Guard",
+  "height": "6'1\"",
+  "weight": "180 lbs",
+  "region": "East",
+  "preferred_location": "Urban",
+  "goals": "Play at the Division I level and earn a business degree",
+  "sat_score": 1180,
+  "act_score": 24,
+  "injury_history": "Torn ACL, 2023, cleared for play",
+  "intended_major": "Kinesiology",
+  "academic_interest_level": "High"
+}

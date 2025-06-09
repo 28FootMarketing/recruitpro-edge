@@ -1,0 +1,92 @@
+[
+  {
+    "division": "NCAA D1",
+    "gpa_range": [
+      3.5,
+      4.0
+    ],
+    "sports": [
+      "Basketball",
+      "Football"
+    ],
+    "regions": [
+      "East",
+      "South"
+    ],
+    "tags": [
+      "NIL"
+    ],
+    "location_type": "Urban",
+    "suggestions": [
+      "Duke University",
+      "University of Miami"
+    ]
+  },
+  {
+    "division": "NCAA D2",
+    "gpa_range": [
+      3.0,
+      3.5
+    ],
+    "sports": [
+      "Basketball",
+      "Soccer"
+    ],
+    "regions": [
+      "Midwest",
+      "West"
+    ],
+    "tags": [
+      "NIL"
+    ],
+    "location_type": "Suburban",
+    "suggestions": [
+      "Grand Valley State",
+      "Cal Poly Pomona"
+    ]
+  },
+  {
+    "division": "NAIA",
+    "gpa_range": [
+      2.5,
+      3.2
+    ],
+    "sports": [
+      "Track",
+      "Basketball"
+    ],
+    "regions": [
+      "South",
+      "Midwest"
+    ],
+    "tags": [
+      "HBCU"
+    ],
+    "location_type": "Urban",
+    "suggestions": [
+      "Georgetown College",
+      "Benedictine University"
+    ]
+  },
+  {
+    "division": "NCAA D3",
+    "gpa_range": [
+      3.2,
+      3.8
+    ],
+    "sports": [
+      "Basketball",
+      "Track"
+    ],
+    "regions": [
+      "East",
+      "Midwest"
+    ],
+    "tags": [],
+    "location_type": "Rural",
+    "suggestions": [
+      "Amherst College",
+      "Grinnell College"
+    ]
+  }
+]
