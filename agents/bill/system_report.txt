@@ -1,0 +1,6 @@
+🛡️ SYSTEM MONITOR REPORT — BILL
+-----------------------------
+Missing: ncaa_id
+Missing: naia_id
+Missing: transcript_uploaded
+Missing: compliance_forms_signed
