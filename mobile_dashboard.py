@@ -1,13 +1,13 @@
 import streamlit as st
 
-# Safe initialization for active_agent
+# Safe initialization
 if "active_agent" not in st.session_state:
     st.session_state["active_agent"] = "jordan"
-    st.experimental_rerun()
+    st.stop()  # Avoid early rerun crash
 
-# Load the selected agent screen
+# Load selected agent view
 agent = st.session_state["active_agent"]
 
-# Placeholder render (replace with actual navigation/render logic)
+# Display dashboard
 st.title("RecruitPro Edge Mobile Dashboard")
 st.success(f"Currently viewing: {agent.capitalize()}'s module")
